@@ -1,0 +1,20 @@
+.text {
+  color: #2987A3;
+}
+
+.text h5 {
+  padding-bottom: 15px;
+}
+
+.text h4 {
+  padding-top: 10px;
+}
+
+.text h3 {
+  color: #BBFBFE;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(0deg, #1796B9, #B2F3FA);
+}
