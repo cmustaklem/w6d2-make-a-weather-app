@@ -20,10 +20,10 @@ import Forecast from '../components/Forecast'
 ReactDOM.render(
 
     <Router history={browserHistory}>
-        <Route path="/" component={Weather}>
-            <Route path="/forecast" component={Forecast} />
+        <Route path="/" component={Weather}></Route>
+        <Route path="/forecast" component={Forecast} />
             {/* <Route path="/editor" component={Editor} /> */}
-        </Route>
+
     </Router> //the paths are nested, and this design gives a global navigation bar that will be used by different sites
 
     , document.getElementById('cms')

@@ -10,6 +10,7 @@ class Editor extends React.Component {
         this.state = sharedState()
     }
     //this is listening to the sharedState. It is listening in for an event
+    //
     componentDidMount() {
         attachSharedState(this)
     }
